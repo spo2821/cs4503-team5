@@ -1,0 +1,10 @@
+item {
+    name: "space-empty",
+    id: 1,
+    display_name: "space-empty"
+}
+item {
+    name: "space-occupied",
+    id: 2,
+    display_name: "space-occupied"
+}
