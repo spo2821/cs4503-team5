@@ -1,21 +1,28 @@
-
 const express = require('express')
 const app = express()
 const port = 3000
+
+const fs = require('fs')
+
+
 
 app.get('/', (req, res) => {
   res.send('Hello World!')
 })
 
-app.get('/lot1', (req, res) => {
-	var blah = {
-		"space1": 0,
-		"space2": 0,
-		"space3": 1,
-		"space4": 0,
-	};
-	res.send(blah);
+app.get('/lot', (req, res) => {
+	var lotNumber = req.lot
+	var lotArray = []
+	fs.readFile('lots/' + lotNumber + '.txt', 'utf8' , (err, data) => {
+  		if (err) {
+    		console.error(err)
+    		return
+  		}
+ 		lotArray = data.toString().split("\n");
+	})
+	res.send(lotArray)
 })
+
 
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`)
