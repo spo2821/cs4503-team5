@@ -1,24 +1,21 @@
 const express = require('express')
 const app = express()
 const port = 3000
-
 const fs = require('fs')
-
-
 
 app.get('/', (req, res) => {
   res.send('Hello World!')
 })
 
-app.get('/lot', (req, res) => {
-	var lotNumber = req.lot
+app.get('/lot/:lotNumber', (req, res) => {
+	var lotNumber = req.params.lotNumber
 	var lotArray = []
 	fs.readFile('lots/' + lotNumber + '.txt', 'utf8' , (err, data) => {
   		if (err) {
     		console.error(err)
     		return
   		}
- 		lotArray = data.toString().split("\n");
+ 		lotArray = data.toString().split("\n")
 	})
 	res.send(lotArray)
 })
