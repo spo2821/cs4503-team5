@@ -9,15 +9,15 @@ app.get('/', (req, res) => {
 
 app.get('/lot/:lotNumber', (req, res) => {
 	var lotNumber = req.params.lotNumber
-	var lotArray = []
 	fs.readFile('lots/' + lotNumber + '.txt', 'utf8' , (err, data) => {
   		if (err) {
     		console.error(err)
     		return
   		}
- 		lotArray = data.toString().split("\n")
+ 		var lotArray = data.toString().split("\n")
+ 		res.send({"lotArray": lotArray})
 	})
-	res.send(lotArray)
+	
 })
 
 
