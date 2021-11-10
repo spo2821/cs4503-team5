@@ -1,0 +1,30 @@
+.Open{
+    background-color: #003366;
+    display:inline-flex;
+    margin-right: 5px;
+    color:white;
+    width: 25px;
+    font-size: 15px;
+    height:50px;
+    
+}
+.Closed{
+    background-color: #C8102E;
+    display: inline-flex;
+    margin-right: 5px;
+    color:white;
+    width: 25px;
+    font-size: 15px;
+    height: 50px;
+}
+
+.Break{
+   margin-top: 30px;
+}
+
+.Row3{
+    margin-left: 87px;
+}
+.Header{
+    color:white
+}
