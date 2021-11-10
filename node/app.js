@@ -4,7 +4,7 @@ const port = 3000
 const fs = require('fs')
 
 app.get('/', (req, res) => {
-  res.send('Hello World!')
+  res.send('Home Page')
 })
 
 app.get('/lot/:lotNumber', (req, res) => {
@@ -15,11 +15,16 @@ app.get('/lot/:lotNumber', (req, res) => {
     		return
   		}
  		var lotArray = data.toString().split("\n")
- 		res.send({"lotArray": lotArray})
+ 		var response = {}
+ 		
+ 		for (int i = 0; i < lotArray.length; i++) {
+ 			var smallArray = lotArray[i].split(" ")
+ 			response[i] = smallArray
+ 		}
+ 		
+ 		res.send(response)
 	})
-	
 })
-
 
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`)

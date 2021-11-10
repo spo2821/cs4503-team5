@@ -17,7 +17,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Hannah is super smart and cute
+          Alex is super smart and cool
         </a>
       </header>
     </div>
