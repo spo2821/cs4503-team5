@@ -15,14 +15,14 @@ app.get('/lot/:lotNumber', (req, res) => {
     		return
   		}
  		var lotArray = data.toString().split("\n")
- 		var response = {}
+ 		var respons = {} 
  		
  		for (int i = 0; i < lotArray.length; i++) {
  			var smallArray = lotArray[i].split(" ")
- 			response[i] = smallArray
+ 			respons[i] = smallArray
  		}
  		
- 		res.send(response)
+ 		res.send(respons)
 	})
 })
 

@@ -17,7 +17,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Alex is super smart and cool
+          Alex is super smart and coo
         </a>
       </header>
     </div>
