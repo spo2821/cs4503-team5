@@ -29,8 +29,12 @@ function router(){
                 <Routes>
                     <Route path="/map" element={<Map/>} />
                         
-                    <Route path="/" component={Home}/>
-                    <Route path="/topics" component={Topics} />
+                    <Route path="/" element={<Home/>}/>
+                    <Route path="/topics" element={<Topics/>} render={() => {
+                        return (
+                            <h2>HELLO</h2>
+                        )
+                    }} />
                     
                     
                 </Routes>
@@ -40,7 +44,7 @@ function router(){
 }
 
 function Home(){
-    <SignIn/>
+    //<SignIn/>
     return(
         SignIn()
     )
@@ -53,9 +57,18 @@ function  Map(){
     
 }
 function Topics(){
-    <div>
-      <h2>Dashboard</h2>
-    </div>
+    console.log("test worked")
+    return(
+        <div>
+            <h2> HELLO</h2>
+        </div>
+        
+        //SignIn()
+    );
+
+//    <div>
+  //    <h2>Dashboard</h2>
+  //  </div>
 }
 
 export{
