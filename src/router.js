@@ -27,7 +27,8 @@ function router(){
                     </li>
                 </ul>
                 <Routes>
-                    <Route path="/map" component={Map} />
+                    <Route path="/map" element={<Map/>} />
+                        
                     <Route path="/" component={Home}/>
                     <Route path="/topics" component={Topics} />
                     
@@ -39,12 +40,17 @@ function router(){
 }
 
 function Home(){
-    
+    <SignIn/>
+    return(
         SignIn()
+    )
     
 }
 function  Map(){
-    App()
+    return(
+        App()
+    )
+    
 }
 function Topics(){
     <div>
