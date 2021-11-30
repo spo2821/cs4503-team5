@@ -10,6 +10,7 @@ import{
 
 import {SignIn} from "./login"
 import {App} from "./map"
+import {Lots} from "./lots"
 
 function router(){
     return(
@@ -25,6 +26,9 @@ function router(){
                     <li>
                         <Link to="/topics"> Topics </Link>
                     </li>
+                    <li>
+                        <Link to="/lots">Lots</Link>
+                    </li>
                 </ul>
                 <Routes>
                     <Route path="/map" element={<Map/>} />
@@ -35,7 +39,7 @@ function router(){
                             <h2>HELLO</h2>
                         )
                     }} />
-                    
+                    <Route path="/lots" element={<LotsLoader/>}/>
                     
                 </Routes>
             </div>
@@ -70,6 +74,12 @@ function Topics(){
   //    <h2>Dashboard</h2>
   //  </div>
 }
+function LotsLoader(){
+    return(
+        Lots()
+    )
+}
+
 
 export{
     router
