@@ -52,7 +52,7 @@ function SignIn() {
     <Container component="main" maxWidth="xs">
       <CssBaseline />
       <div className={classes.paper}>
-        <img src={logo} className="App-logo" alt="logo" />  
+        <img src={logo} />  
         //<Avatar className={classes.avatar}>
         //</Avatar>
         <Typography component="h1" variant="h5">
