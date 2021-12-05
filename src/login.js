@@ -13,6 +13,7 @@ import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 import { ModuleResolutionKind } from 'typescript';
+import {LotsLoader} from './router';
 function Copyright() {
   return (
     <Typography variant="body2" color="textSecondary" align="center">
@@ -88,8 +89,12 @@ function SignIn() {
             fullWidth
             variant="contained"
             color="primary"
-            className={classes.submit}
+            //className={classes.submit}
+            onClick={(e) => this.handleEntailmentRequest(e)/*console.log("worked") lots()*/}
+              
+            
           >
+            
             Sign In
           </Button>
           <Grid container>
@@ -111,6 +116,17 @@ function SignIn() {
       </Box>
     </Container>
   );
+}
+function lots(){
+  console.log("stupid react")
+  return(
+    LotsLoader()
+  )
+  
+}
+function handleEntailmentRequest(e){
+  e.preventDefault()
+  console.log("tested")
 }
 
 export {
