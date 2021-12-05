@@ -21,3 +21,18 @@
    margin-top: 30px;
 }
 
+.green {
+	color: #228B22;
+}
+
+.red {
+	color: #FF0000;
+}
+
+.yellow {
+	color: #CCCC00;
+}
+
+.bold {
+	font-weight: bold;
+}

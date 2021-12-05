@@ -36,37 +36,22 @@ export function Lots() {
                     <Grid container
                         spacing={3}
                     >
-                    	
-                        <Grid item xs={12}>
-                           <a href="/map" class="lotLink"><Item>Student Union Parking<br></br>Distance: 0.03 mi.<br></br>Open Spots: 8</Item></a>
+                    	<Grid item xs={12}>
+                            <Item><span class="bold">Commuter Parking Lot</span><br></br>Distance: 0.03 mi.<br></br>Open Spots: <span class="red">0</span></Item>
                         </Grid>
                         <Grid item xs={12}>
-                            <Item>lot 2</Item>
+                           <a href="/map" class="lotLink"><Item><span class="bold">Student Union Parking</span><br></br>Distance: 0.08 mi.<br></br>Open Spots: <span class="green">8</span></Item></a>
                         </Grid>
                         <Grid item xs={12}>
-                            <Item>lot 3</Item>
+                            <Item><span class="bold">Keplinger-Law Lot</span><br></br>Distance: 0.18 mi.<br></br>Open Spots: <span class="yellow">2</span></Item>
+                        </Grid>
+                         <Grid item xs={12}>
+                            <Item><span class="bold">4th and Harvard Lot</span><br></br>Distance: 0.46 mi.<br></br>Open Spots: <span class="red">0</span></Item>
                         </Grid>
                         <Grid item xs={12}>
-                            <Item>lot 4</Item>
+                            <Item><span class="bold">Reynolds Center Parking</span><br></br>Distance: 1.06 mi.<br></br>Open Spots: <span class="green">18</span></Item>
                         </Grid>
-                        <Grid item xs={12}>
-                            <Item>lot 5</Item>
-                        </Grid>
-                        <Grid item xs={12}>
-                            <Item>lot 6</Item>
-                        </Grid>
-                        <Grid item xs={12}>
-                            <Item>lot 7</Item>
-                        </Grid>
-                        <Grid item xs={12}>
-                            <Item>lot 8</Item>
-                        </Grid>
-                        <Grid item xs={12}>
-                            <Item>lot 9</Item>
-                        </Grid>
-                        <Grid item xs={12}>
-                            <Item>lot 10</Item>
-                        </Grid>
+                       
                     </Grid>
                 </div>
 

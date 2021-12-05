@@ -53,8 +53,6 @@ function SignIn() {
       <CssBaseline />
       <div className={classes.paper}>
         <img src={logo} />  
-        //<Avatar className={classes.avatar}>
-        //</Avatar>
         <Typography component="h1" variant="h5">
           Sign in
         </Typography>
@@ -85,8 +83,8 @@ function SignIn() {
             control={<Checkbox value="remember" color="primary" />}
             label="Remember me"
           />
-          <a href="/lots"><Button
-            type="submit"
+         <a href="/lots"><Button
+            type="button"
             fullWidth
             variant="contained"
             color="primary"

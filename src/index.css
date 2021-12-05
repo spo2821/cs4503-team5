@@ -27,7 +27,7 @@ div.subHeader {
 
 div.MuiPaper-root {
 	font-family:montserrat;
-	font-weight: bold;
+	font-weight: normal;
 	font-size: 20px;
 }
 
@@ -38,6 +38,10 @@ div.lot1Image {
 	height: 215px;
 	margin: 0 auto;
 	border-radius: 25px;
+}
+
+a {
+	text-decoration: none;
 }
 
 div.grid {
