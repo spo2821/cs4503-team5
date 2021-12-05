@@ -7,6 +7,9 @@ import{
     useRouteMatch,
     useParams,
 } from "react-router-dom";
+import{
+    Button
+} from '@mui/material'
 
 import {SignIn} from "./login"
 import {App} from "./map"
@@ -17,18 +20,17 @@ function router(){
         <Router>
             <div>
                 <ul>
-                    <li>
-                        <Link to="/">Home</Link>
-                    </li>
-                    <li>
-                        <Link to="/map">Map</Link>
-                    </li>
-                    <li>
-                        <Link to="/topics"> Topics </Link>
-                    </li>
-                    <li>
-                        <Link to="/lots">Lots</Link>
-                    </li>
+                    
+                        <Button variant="Text contained"><Link to="/">Home</Link></Button>
+                        
+                  
+                        <Button variant="Text contained"><Link to="/map">Map</Link></Button>
+                    
+                    
+                        <Button variant="Text contained"><Link to="/topics"> Topics </Link></Button>
+                    
+                        <Button variant="Text contained"><Link to="/lots">Lots</Link></Button>
+                    
                 </ul>
                 <Routes>
                     <Route path="/map" element={<Map/>} />
@@ -82,5 +84,6 @@ function LotsLoader(){
 
 
 export{
-    router
+    router,
+    LotsLoader
 }
