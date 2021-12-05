@@ -9,7 +9,7 @@ const suC = [['c1','Open'],['c2','Closed'],['c3','Open'],['c4','Open'],['c5','Op
 export function App() {
   return (
     <div className="App">
-      <h1 class = "Header">Student Union Parking Lot</h1>
+      <h1 class = "Header">Student Union Parking</h1>
 
       <Spots />
       <Map />

@@ -15,21 +15,23 @@ code {
 h1.Header {
 	color: black;
 	font-family: Montserrat;
+	margin-top: 10px;
 }
 
 div.lot1Image {
 	background-image: url('img/dronelot1.png');
-	width: 40%;
-	height: 350px;
+	background-size: contain;
+	width: 95%;
+	height: 215px;
 	margin: 0 auto;
 	border-radius: 25px;
 }
 
 div.grid {
+	display: inline-block;
 	padding: 15px;
 	border: 2px black solid;
 	border-radius: 25px;
-	width: 30%;
 	margin: 0 auto;
 }
 
