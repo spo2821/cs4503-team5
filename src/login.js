@@ -84,7 +84,7 @@ function SignIn() {
             control={<Checkbox value="remember" color="primary" />}
             label="Remember me"
           />
-          <Button
+          <a href="/lots"><Button
             type="submit"
             fullWidth
             variant="contained"
@@ -96,7 +96,7 @@ function SignIn() {
           >
             
             Sign In
-          </Button>
+          </Button></a>
           <Grid container>
             <Grid item xs>
               <Link href="#" variant="body2">

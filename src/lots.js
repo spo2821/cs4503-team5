@@ -34,8 +34,9 @@ export function Lots() {
                     <Grid container
                         spacing={3}
                     >
+                    	
                         <Grid item xs={12}>
-                            <Item>lot 1 </Item>
+                           <a href="/map"><Item>lot 1 </Item></a>
                         </Grid>
                         <Grid item xs={12}>
                             <Item>lot 2</Item>
