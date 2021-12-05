@@ -6,6 +6,7 @@ import { styled } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import Typography from '@mui/material/Typography';
+import Button from '@material-ui/core/Button';
 import ButtonBase from '@mui/material/ButtonBase';
 import ListItem from '@mui/material/ListItem';
 import ListItemButton from '@mui/material/ListItemButton';
@@ -26,9 +27,10 @@ export function Lots() {
         <div className="Lots">
             <header className="Lots-header" alignItems="centered">
                 <br></br>
-                Local Lot list
+                <h1 class="Header">Nearby Parking Lots</h1>
                 <br></br>
                 <br></br>
+                <div class="subHeader">Sort By: &nbsp;<Button fullwidth variant="contained" type="submit" color="primary">Distance</Button> &nbsp;&nbsp;<Button fullwidth variant="contained" type="submit" color="primary">Open Spots</Button></div>
                 <br></br>
                 <div class="wrapper">
                     <Grid container
@@ -36,7 +38,7 @@ export function Lots() {
                     >
                     	
                         <Grid item xs={12}>
-                           <a href="/map"><Item>lot 1 </Item></a>
+                           <a href="/map" class="lotLink"><Item>Student Union Parking<br></br>Distance: 0.03 mi.<br></br>Open Spots: 8</Item></a>
                         </Grid>
                         <Grid item xs={12}>
                             <Item>lot 2</Item>

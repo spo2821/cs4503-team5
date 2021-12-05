@@ -16,6 +16,19 @@ h1.Header {
 	color: black;
 	font-family: Montserrat;
 	margin-top: 10px;
+	text-align:center;
+}
+
+div.subHeader {
+	font-family: montserrat;
+	font-size: 20px;
+	text-align: center;
+}
+
+div.MuiPaper-root {
+	font-family:montserrat;
+	font-weight: bold;
+	font-size: 20px;
 }
 
 div.lot1Image {
