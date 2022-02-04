@@ -66,7 +66,7 @@ function Topics(){
     console.log("test worked")
     return(
         <div>
-            <h2> HELLO</h2>
+            <h2>  HELLO</h2>
         </div>
         
         //SignIn()

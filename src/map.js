@@ -10,7 +10,7 @@ export function App() {
   return (
     <div className="App">
       <h1 class = "Header">Student Union Parking</h1>
-
+ 
       <Spots />
       <Map />
     </div>

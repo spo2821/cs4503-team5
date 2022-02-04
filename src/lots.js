@@ -52,7 +52,7 @@ export function Lots() {
                             <Item><span class="bold">Reynolds Center Parking</span><br></br>Distance: 1.06 mi.<br></br>Open Spots: <span class="green">18</span></Item>
                         </Grid>
                        
-                    </Grid>
+                    </Grid >
                 </div>
 
             </header>
