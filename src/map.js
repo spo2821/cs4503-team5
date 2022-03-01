@@ -19,7 +19,7 @@ export function App() {
 
 function Spots(){
   return(
-  	<div>
+  	<div>   
 		<div class="lot1Image"></div>
 		
 		<div class="compass">

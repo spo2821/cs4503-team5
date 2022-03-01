@@ -83,7 +83,7 @@ function LotsLoader(){
 }
 
 
-export{
+export{   
     router,
     LotsLoader
 }

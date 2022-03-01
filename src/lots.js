@@ -57,7 +57,7 @@ export function Lots() {
 
             </header>
         </div>
-    );
+    );    
 }
 
 //export Lots;
