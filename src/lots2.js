@@ -25,11 +25,11 @@ const Item = styled(Paper)(({ theme }) => ({
   color: theme.palette.text.secondary,
 }));
 
-export function Lots() {
+export function Lots2() {
 	const [cls, setCls] = useState("red-heart");
 	const [cls2, setCls2] = useState("white-heart");
 	const [cls4, setCls4] = useState("white-heart");
-	const [apple, setApple] = useState(true);
+	const [apple, setApple] = useState(false);
 	const myContext = useContext(AppContext);
   return (
         <div className="Lots">
@@ -57,7 +57,7 @@ export function Lots() {
                     	<Grid item xs={12}>
                             <a href="/map"><Item>
                             <div class="grid1">
-                            <span class="bold grid1">Student Union Parking</span><br></br>Distance: 0.03 mi.<br></br>
+                            <span class="bold grid1">Student Union Parking</span><br></br>Distance: 0.048 km<br></br>
                             <div className={cls}  onClick={() => setCls((cls) => (cls === "red-heart" ? "white-heart" : "red-heart"))}>&#10084;</div>
                             Open Spots: <span class="green">8</span>
                           
@@ -78,7 +78,7 @@ export function Lots() {
                         <Grid item xs={12}>
                            <a href="/map2" class="lotLink"><Item>
                            <div class="grid2">
-                           <span class="bold">Commuter Parking Lot</span><br></br>Distance: 0.08 mi.<br></br>
+                           <span class="bold">Commuter Parking Lot</span><br></br>Distance: 0.129 km<br></br>
                             <div className={cls2}  onClick={() => setCls2((cls2) => (cls2 === "red-heart" ? "white-heart" : "red-heart"))}>&#10084;</div>
                            Open Spots: <span class="red">0</span>
                            </div>
@@ -87,7 +87,7 @@ export function Lots() {
                         <Grid item xs={12}>
                         	  <a href="/map4" class="lotLink"><Item>
                         	<div class="grid4">
-                            <span class="bold">Keplinger-Law Lot</span><br></br>Distance: 0.18 mi.<br></br>
+                            <span class="bold">Keplinger-Law Lot</span><br></br>Distance: 0.29 km<br></br>
                              <div className={cls4}  onClick={() => setCls4((cls4) => (cls4 === "red-heart" ? "white-heart" : "red-heart"))}>&#10084;</div>
                             Open Spots: <span class="yellow">2</span>
                             </div>
@@ -96,10 +96,10 @@ export function Lots() {
                        		
                         </Grid>
                          <Grid item xs={12}>
-                            <Item><span class="bold">4th and Harvard Lot</span><br></br>Distance: 0.46 mi.<br></br>Open Spots: <span class="red">0</span></Item>
+                            <Item><span class="bold">4th and Harvard Lot</span><br></br>Distance: 0.74 km<br></br>Open Spots: <span class="red">0</span></Item>
                         </Grid>
                         <Grid item xs={12}>
-                            <Item><span class="bold">Reynolds Center Parking</span><br></br>Distance: 1.06 mi.<br></br>Open Spots: <span class="green">18</span></Item>
+                            <Item><span class="bold">Reynolds Center Parking</span><br></br>Distance: 1.71 km<br></br>Open Spots: <span class="green">18</span></Item>
                         </Grid>
                        
                     </Grid>

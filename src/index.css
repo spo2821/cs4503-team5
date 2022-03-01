@@ -24,6 +24,12 @@ div.subHeader {
 	font-size: 20px;
 	text-align: center;
 }
+div.subHeader-left {
+	font-family: montserrat;
+	font-size: 20px;
+	text-align: left;
+	margin-left: 25px;
+}
 
 div.MuiPaper-root {
 	font-family:montserrat;
@@ -38,6 +44,64 @@ div.lot1Image {
 	height: 215px;
 	margin: 0 auto;
 	border-radius: 25px;
+}
+div.lot2Image {
+	background-image: url('img/lot2.jpg');
+	background-size: contain;
+	width: 95%;
+	height: 215px;
+	margin: 0 auto;
+	border-radius: 25px;
+}
+div.lot4Image {
+	background-image: url('img/lot4.jpg');
+	background-size: contain;
+	width: 95%;
+	height: 215px;
+	margin: 0 auto;
+	border-radius: 25px;
+}
+
+.center{
+	text-align:center;
+}
+
+div.grid1 {
+	background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('img/dronelot1.png');
+	color:white;
+	position:relative;
+}
+div.grid2 {
+	background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('img/lot2.jpg');
+	color:white;
+	position:relative;
+}
+div.grid4 {
+	background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('img/lot4.jpg');
+	color:white;
+	position:relative;
+}
+
+div.red-heart {
+float:right;
+font-size: 40px;
+color:red;
+position:absolute;
+right: 15px;
+top: 15px;
+}
+
+div.white-heart {
+float:right;
+color:white;
+font-size: 40px;
+position:absolute;
+right: 15px;
+top: 15px;
+}
+
+span.grid1 {
+	color: white;
 }
 
 a {
