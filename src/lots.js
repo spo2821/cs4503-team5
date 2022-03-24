@@ -106,12 +106,10 @@ export function Lots() {
                 </div>
             </header>
         </div>
-<<<<<<< HEAD
         
     );
-=======
+
     );    
->>>>>>> dd6b7f24c211e8f8fdb46e4505d6c4cf11bce540
 }
 
 //export Lots;

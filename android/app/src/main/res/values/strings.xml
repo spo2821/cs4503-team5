@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">ParkingBuddy</string>
+    <string name="title_activity_main">ParkingBuddy</string>
+    <string name="package_name">com.backseatboys.parkingBuddy</string>
+    <string name="custom_url_scheme">com.backseatboys.parkingBuddy</string>
+</resources>
