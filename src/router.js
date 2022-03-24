@@ -98,6 +98,7 @@ function Topics(){
 	const [apple, setApple] = useState(myContext.apple);
     return(
         <div>
+<<<<<<< HEAD
              <h1 class = "Header">User Settings</h1>
              <div class="subHeader">Notifications</div>
              <div class="Break"></div>
@@ -115,6 +116,9 @@ function Topics(){
         	<div class="subHeader">Units</div>
        		<div class="Break"></div>
         	<div class="subHeader-left">Distance:&nbsp;&nbsp;<Button fullwidth variant="contained" type="submit" onClick={() => setCls4((cls4) => (cls4 === "Miles" ? "Kilometers" : "Miles"))} color="primary">{cls4}</Button></div>
+=======
+            <h2>  HELLO</h2>
+>>>>>>> dd6b7f24c211e8f8fdb46e4505d6c4cf11bce540
         </div>
         
         //SignIn()
@@ -136,7 +140,7 @@ function LotsLoader2(){
 }
 
 
-export{
+export{   
     router,
     LotsLoader
 }

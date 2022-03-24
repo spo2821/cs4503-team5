@@ -8,7 +8,7 @@ import random
 import io
 import imageio
 import glob
-import scipy.misc
+import scipy.misc 
 import numpy as np
 from six import BytesIO
 from PIL import Image, ImageDraw, ImageFont

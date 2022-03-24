@@ -10,7 +10,7 @@ export function App() {
   return (
     <div className="App">
       <h1 class = "Header">Student Union Parking</h1>
-
+ 
       <Spots />
       <Map />
     </div>
@@ -20,7 +20,7 @@ export function App() {
 function Spots(){
 	
   return(
-  	<div>
+  	<div>   
 		<div class="lot1Image"></div>
 		
 		<div class="compass">

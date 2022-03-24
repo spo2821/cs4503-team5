@@ -9,7 +9,7 @@ import matplotlib
 import matplotlib.pyplot as plt
 
 import io
-import scipy.misc
+import scipy.misc 
 import numpy as np
 from six import BytesIO
 from PIL import Image, ImageDraw, ImageFont
