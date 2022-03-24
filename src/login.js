@@ -52,7 +52,7 @@ function SignIn() {
     <Container component="main" maxWidth="xs">
       <CssBaseline />
       <div className={classes.paper}>
-        <img src={logo} />  
+        <img class="logo" src={logo}/>  
         <Typography component="h1" variant="h5">
           Sign in
         </Typography>
@@ -63,7 +63,7 @@ function SignIn() {
             required
             fullWidth
             id="email"
-            label="Email Address"
+            label="Username"
             name="email"
             autoComplete="email"
             autoFocus
