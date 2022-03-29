@@ -109,7 +109,6 @@ export function Lots() {
         
     );
 
-    );    
 }
 
 //export Lots;

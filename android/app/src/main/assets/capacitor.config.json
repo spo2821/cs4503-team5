@@ -1,0 +1,6 @@
+{
+	"appId": "com.backseatboys.parkingBuddy",
+	"appName": "ParkingBuddy",
+	"webDir": "build",
+	"bundledWebRuntime": false
+}
